@@ -6,6 +6,31 @@ h1 {
     text-align: center;
 }
 
-.columns {
+button {
+    background-color: orange;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.collapse {
+    visibility: collapse;
+}
+
+.row {
     display: flex;
+}
+
+.column {
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#header {
+    text-align: left;
 }
