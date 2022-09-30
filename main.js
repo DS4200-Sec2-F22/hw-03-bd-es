@@ -7,7 +7,7 @@
 function marksButton1Clicked() {
     let newText = 'Marks: Area, Channels: Color (Hue)';
 
-    document.getElementById('marks1').innerHTML(newText);
+    document.getElementById('marks1').innerHTML = newText;
 }
 
 // add event handler for the marks and channels button
