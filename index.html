@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
 <head>
     <link rel="stylesheet" href="style.css">
     
-    <meta charset=utf-8/>
+    <meta charset=utf-8 />
     
     <title>hw-03</title>
 </head>
@@ -12,40 +12,207 @@
 <body>
     <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
     
-    <div class="columns">
+    <div class="row">
         
-        <div id="column1"> 
-            <img src="img/vis1.png">
-            <img src="img/vis2.png">
+        <div class="column">
+            
+            <div>
+                <img src="img/vis1.png">
+            </div>
+            
         </div>
-
-        <div id="column2">
-
-            <div id="marks1"></div>
-
-            <button type="button" id="marks_button1">
-                Reveal Marks and Channels
-            </button>
-
-            <div id="colors1"></div>
-
-            <button type="button" id="colormap_button1">
-                Reveal Colormap(s)
-            </button>
-
-            <div id="marks2"></div>
-
-            <button type="button" id="marks_button2">
-                Reveal Marks and Channels
-            </button>
-
-            <div id="colors2"></div>
-
-            <button type="button" id="colormap_button2">
-                Reveal Colormap(s)
-            </button>
+        
+        <div class="column">
+            <div>
+                
+                <button type="button" id="marks_button1">
+                    Reveal Marks and Channels
+                </button>
+                
+                <div id="marks1">
+                    
+                    <h1 id="header">Marks</h1>
+                    <ul>
+                        <li> Mark 1 </li>
+                        <li> Mark 2 </li>
+                        <li> Mark 3 </li>
+                        <li> Mark 4 </li>
+                        
+                    </ul>
+                    
+                    <h1 id="header">Channels</h1>
+                    
+                    <ul>
+                        <li>Channel 1</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type x
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                        
+                        <li>Channel 2</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type y
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                    </ul>
+                    
+                    
+                </div>
+                
+                <button type="button" id="colormap_button1">
+                    Reveal Colormap(s)
+                </button>
+                
+                <div id="colormaps1">
+                    
+                    <h1 id="header">Colormap(s)</h1>
+                    
+                    <ul>
+                        <li>Color Map 1</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type x
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                        
+                        <li>Color map 2</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type y
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                    </ul>
+                    
+                </div>
+                
+                
+            </div>
+            
         </div>
+        
     </div>
+    
+    
+    
+    <div class="row">
+        <div class="column">
+            <div>
+                <img src="img/vis2.png">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div>
+                <button type="button" id="marks_button2">
+                    Reveal Marks and Channels
+                </button>
+                
+                <div id="marks2">
+                    <h1 id="header">Marks</h1>
+                    <ul>
+                        <li> Mark 1 </li>
+                        <li> Mark 2 </li>
+                        <li> Mark 3 </li>
+                        <li> Mark 4 </li>
+                        
+                    </ul>
+                    
+                    <h1 id="header">Channels</h1>
+                    
+                    <ul>
+                        <li>Channel 1</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type x
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                        
+                        <li>Channel 2</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type y
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                        
+                        
+                    </ul>
+                    
+                </div>
+                
+            
+                
+                <button type="button" id="colormap_button2">
+                    Reveal Colormap(s)
+                </button>
+                
+                <div id="colormaps2">
+                    <h1 id="header">Colormap(s)</h1>
+                    
+                    <ul>
+                        <li>Color Map 1</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type x
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                        
+                        <li>Color map 2</li>
+                        
+                        <ul>
+                            <li>
+                                Representing attribute of type y
+                            </li>
+                            
+                            <li>
+                                This is good mappin, because
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
     <script src="main.js"></script>
 </body>
 
