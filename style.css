@@ -6,6 +6,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 button {
     background-color: orange;
     padding: 15px;
@@ -39,3 +43,44 @@ ul {
 .header {
     text-align: left;
 }
+
+.marks1 {
+    visibility: hidden;
+}
+
+.marks1Visible {
+    visibility: visible;
+}
+
+.marks2 {
+    visibility: hidden;
+}
+
+.marks2Visible {
+    visibility: visible;
+}
+
+.colormaps1 {
+    visibility: hidden;
+}
+
+.colorMaps1Visible {
+    visibility: visible;
+}
+
+.colormaps2 {
+    visibility: hidden;
+}
+
+.colorMaps2Visible {
+    visibility: visible;
+}
+
+.Acknowledgements {
+    padding-top: 50px;
+}
+
+
+
+
+
