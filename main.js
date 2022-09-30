@@ -4,12 +4,40 @@
 
 // create a function for when the first button is clicked
 //can we make this an abstract function?
-function marksButton1Clicked() {
+function marksButtonClicked1() {
     let newText = 'Marks: Area, Channels: Color (Hue)';
 
-    document.getElementById('marks1').innerHTML = newText;
+    document.getElementById('marks_button1').classList.toggle("collapse");
 }
 
-// add event handler for the marks and channels button
-//if we have an abstract funciton, this can get getElementByClass and have it be all buttons
-document.getElementById('marks_button1').addEventListener('click', marksButton1Clicked)
+
+
+function colorMapsButtonClicked1() {
+
+    document.getElementById('colormap_button1').classList.toggle("collapse");
+
+}
+
+
+function marksButtonClicked2() {
+
+    document.getElementById('marks_button2').classList.toggle("collapse");
+
+
+}
+
+
+function colorMapsButtonClicked2() {
+
+    document.getElementById('colormap_button2').classList.toggle("collapse");
+
+
+}
+
+
+
+
+document.getElementById('marks_button1').addEventListener('click', marksButtonClicked1)
+document.getElementById('colormap_button1').addEventListener('click', colorMapsButtonClicked1)
+document.getElementById('marks_button2').addEventListener('click', marksButtonClicked2)
+document.getElementById('colormap_button2').addEventListener('click', colorMapsButtonClicked2)
